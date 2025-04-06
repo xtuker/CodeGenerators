@@ -12,8 +12,8 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 
     <Company>Xtuker</Company>
-<!--    <PackageProjectUrl></PackageProjectUrl>-->
-<!--    <RepositoryUrl></RepositoryUrl>-->
+    <PackageProjectUrl>https://github.com/xtuker/CodeGenerators.git</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/xtuker/CodeGenerators.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryBranch>master</RepositoryBranch>
     <PackageTags>code.generators</PackageTags>
