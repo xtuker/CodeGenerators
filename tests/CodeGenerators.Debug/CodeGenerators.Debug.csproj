@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(Configuration)' == 'Debug'">
+    <ProjectReference Include="..\..\generators\CodeGenerators.ValueObjects\CodeGenerators.ValueObjects.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\src\CodeGenerators.Utils\CodeGenerators.Utils.csproj" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(Configuration)' == 'Release'">
+    <PackageReference Include="CodeGenerators.Utils" Version="0.5.0"/>
+    <PackageReference Include="CodeGenerators.ValueObjects" Version="0.5.0"/>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup Condition="'$(Configuration)' == 'Release'">
+    <None Include="$(SolutionDir)\generators\CodeGenerators.ValueObjects\bin\$(Configuration)\netstandard2.0\CodeGenerators.ValueObjects.dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+    <None Include="$(SolutionDir)\generators\CodeGenerators.ValueObjects\bin\$(Configuration)\netstandard2.0\CodeGenerators.Shared.dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+  </ItemGroup>
+
+</Project>

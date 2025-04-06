@@ -1,0 +1,15 @@
+<Project>
+  <Import Project="..\Nuget.Build.props"/>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+    <NoWarn>$(NoWarn);RS2007;RS2008</NoWarn>
+
+  </PropertyGroup>
+
+</Project>

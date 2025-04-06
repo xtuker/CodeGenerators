@@ -1,0 +1,22 @@
+<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <VersionPrefix>1.0</VersionPrefix>
+    <LangVersion>latest</LangVersion>
+
+    <IsPackable>true</IsPackable>
+    <NoWarn>NU1803;CS1574;CS1591</NoWarn>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+    <Company>Xtuker</Company>
+<!--    <PackageProjectUrl></PackageProjectUrl>-->
+<!--    <RepositoryUrl></RepositoryUrl>-->
+    <RepositoryType>git</RepositoryType>
+    <RepositoryBranch>master</RepositoryBranch>
+    <PackageTags>code.generators</PackageTags>
+    <Copyright>$([System.DateTime]::Today.ToString(yyyy))</Copyright>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>false</IsPackable>
+
+    <Copyright>Copyright $([System.DateTime]::Today.ToString(yyyy))</Copyright>
+  </PropertyGroup>
+
+</Project>

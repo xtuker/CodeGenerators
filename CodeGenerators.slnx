@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/.files/">
+    <File Path="global.json" />
+    <File Path="Nuget.Build.props" />
+  </Folder>
+  <Folder Name="/generators/">
+    <File Path="generators/Directory.Build.props" />
+    <File Path="generators/Directory.Packages.props" />
+    <Project Path="generators/CodeGenerators.Shared/CodeGenerators.Shared.csproj" />
+    <Project Path="generators/CodeGenerators.ValueObjects/CodeGenerators.ValueObjects.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <File Path="src/Directory.Build.props" />
+    <File Path="src/Directory.Packages.props" />
+    <Project Path="src/CodeGenerators.Utils/CodeGenerators.Utils.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <File Path="tests/Directory.Build.props" />
+    <Project Path="tests/CodeGenerators.Debug/CodeGenerators.Debug.csproj" />
+  </Folder>
+</Solution>

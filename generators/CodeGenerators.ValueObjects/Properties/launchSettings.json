@@ -1,0 +1,9 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "CodeGenDebug": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "../../tests/CodeGenerators.Debug/CodeGenerators.Debug.csproj"
+    }
+  }
+}
