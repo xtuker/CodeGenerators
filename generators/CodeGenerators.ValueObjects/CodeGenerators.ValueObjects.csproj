@@ -32,6 +32,11 @@
     <ProjectReference Include="..\CodeGenerators.Shared\CodeGenerators.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Templates\*.cs" />
+    <EmbeddedResource Include="Templates\*.cs" />
+  </ItemGroup>
+
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <GetTargetPathDependsOn>$(GetTargetPathDependsOn);CodeGenetators_Shared_GetTargetPathDependsOn</GetTargetPathDependsOn>
   </PropertyGroup>
